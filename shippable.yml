@@ -13,6 +13,3 @@ jdk:
 after_success:
   - git push git@heroku.com:buildsample.git master
 
-matrix:
-  exclude:
-    - lein: lein1
