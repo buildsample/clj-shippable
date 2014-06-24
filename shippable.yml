@@ -1,8 +1,8 @@
 language: clojure
 
-lein: 
+#lein: 
  # - lein2
-  - lein1
+ # - lein1
 
 script: lein test
 
