@@ -1,8 +1,8 @@
 language: clojure
 
-#lein: 
+lein: 
  # - lein2
- # - lein1
+   - lein1
 
 script: lein test
 
@@ -13,6 +13,6 @@ jdk:
 after_success:
   - git push git@heroku.com:buildsample.git master
 
-#matrix:
-# include:
- #  - lein: lein2
+matrix:
+  include:
+   - lein: lein2
