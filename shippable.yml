@@ -10,8 +10,7 @@ script: lein test
 jdk: 
   - openjdk7
 #  - oraclejdk7
-after_success:
-  - git push git@heroku.com:buildsample.git master
+
 
 matrix:
   include:
