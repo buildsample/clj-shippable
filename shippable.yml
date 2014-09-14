@@ -5,7 +5,9 @@ lein:
    - lein2
   # - lein1
 
+
 script: lein test
+
 
 
 jdk: 
