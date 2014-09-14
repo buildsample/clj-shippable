@@ -1,17 +1,14 @@
 language: clojure
 
 lein: 
- # - lein2
-   - lein1
+   - lein2
+  # - lein1
 
 script: lein test
 
 
 jdk: 
   - openjdk7
-#  - oraclejdk7
+  - oraclejdk7
 
 
-matrix:
-  include:
-   - lein: lein2
