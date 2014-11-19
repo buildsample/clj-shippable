@@ -1,5 +1,5 @@
 
-language: clojure
+language: test
 lein: 
    - lein2
   # - lein1
