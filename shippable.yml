@@ -11,4 +11,4 @@ jdk:
   #- oraclejdk7
 
 archive: true
-cache: true
+#cache: true
