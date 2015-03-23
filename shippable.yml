@@ -4,7 +4,7 @@ lein:
    - lein2
   # - lein1
 
-script: lein test
+#script: lein test
 
 jdk: 
   - openjdk7
