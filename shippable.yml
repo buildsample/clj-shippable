@@ -1,5 +1,5 @@
 
-#language: clojure
+language: clojure
 #lein: 
  #  - lein2
   # - lein1
