@@ -4,10 +4,11 @@ lein:
    - lein2
   # - lein1
 
-script: lein test
+#script: lein test
 
-jdk: 
-  - openjdk7
+#jdk: 
+ # - openjdk7
   #- oraclejdk7
 
 archive: true
+#cache: true
